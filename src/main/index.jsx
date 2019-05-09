@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+// import { A10Button } from 'a10-gui-widgets';
 import './index.less';
 
 import Header from '../component/header/index';
@@ -11,10 +12,11 @@ class Index extends Component {
     render() {
         return (
             <div>
-            	<Header title="首页" back={true} />
-            	<div className="mui-content">
-            		<button type="button" className="mui-btn mui-btn-royal">红色</button> 
-            	</div>
+        		<Header title="首页" back={true} />
+				  <div>
+
+					
+				  </div>
             </div>
         );
     }

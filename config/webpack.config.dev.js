@@ -31,7 +31,7 @@ module.exports = {
             },
             {
                 test: /\.(css|less)$/,
-                include: [path.resolve(__dirname, '../src')],
+                // include: [path.resolve(__dirname, '../src')],
                 use: [
                     require.resolve('style-loader'),
                     {
@@ -76,7 +76,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.ttf$/,
+				test: /\.(png|woff|woff2|eot|ttf|svg|gif)$/,
                 loader: require.resolve('file-loader')
             }
         ]

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { A10Button } from 'a10-gui-widgets';
 import './index.less';
 
 import Header from '../component/header/index';
@@ -17,9 +18,13 @@ class Login extends Component {
     render() {
         return (
             <div>
-            	<Header title="登陆" back={false}/>
             	<div className="mui-content">
-            		<div onClick={this.handleNavigator.bind(this)}>跳转到main</div>
+					<div>
+					  <A10Button type="primary">Primary</A10Button>
+					  <A10Button>Default1</A10Button>
+					  <A10Button type="dashed">Dashed</A10Button>
+					  <A10Button type="danger">Danger</A10Button>
+					</div>
             	</div>
             </div>
         );

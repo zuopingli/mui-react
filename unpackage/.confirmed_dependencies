@@ -1,7 +1,0 @@
-{
-  "dist/login/index.html": {
-    "refer": [
-      "dist/main/index.html"
-    ]
-  }
-}

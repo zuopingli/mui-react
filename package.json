@@ -9,7 +9,7 @@
     "watch": "webpack --config config/webpack.config.dev.js --watch"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.6",
     "babel-core": "^6.26.0",
@@ -32,6 +32,8 @@
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
+    "a10-gui-framework": "git+ssh://git@github.com:a10networks/a10-gui-framework.git",
+    "a10-gui-widgets": "git+ssh://git@github.com:a10networks/a10-gui-widgets.git",
     "babel-runtime": "^6.26.0",
     "object-assign": "^4.1.1",
     "promise": "^8.0.1",
